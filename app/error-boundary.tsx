@@ -14,9 +14,7 @@ interface State {
 const IFRAME_ID = 'rork-web-preview';
 
 const webTargetOrigins = [
-  "http://localhost:3000",
-  "https://rorkai.com",
-  "https://rork.app",
+  "http://localhost:3000"
 ];    
 
 function sendErrorToIframeParent(error: any, errorInfo?: any) {
